@@ -1,13 +1,24 @@
 SEEKING HELP WITH DEVELOPMENT
 ===========
 
-As of right now, there are several features I would like to implement in this ASAP. I am looking to speak with skilled coders who can work with me to give this thing wings. Your work on this project stands to give many good people in this world some of their power back. And that is a good thing.
+As of right now, there are several features I would like to implement in this ASAP.
+I am looking to speak with skilled coders who can work with me to give this thing wings.
 
-The MAIN feature I would like help implementing at this time (to evolve past v.01) is the ability to call the LP-Warden.php remotely from a file that could stay with the lander it is configured on (perhaps a javascript file).
+Your work on this project stands to give many good people in this world some of their power back.
+And that is a good thing.
 
-The obvious benefits of doing this would be the ability to enable/disable and scale siphon % in real-time as well as an increased transfer probability when it comes to experienced affiliates ripping off landing pages. There are many more benefits that come into play once this function is developed, which I am open to discussing with the right people.
+The MAIN feature I would like help implementing at this time (to evolve past v.01) is the ability
+to call the LP-Warden.php remotely from a file that could stay with the lander it is configured
+on (perhaps a javascript file).
 
-From what I understand about GitHub, the nature of this place is to be collaborative and open-source... so if you have any bright ideas for this tool, feel free to put them up here! I did my best to enable all the public settings on here. Hope I did it right.
+The obvious benefits of doing this would be the ability to enable/disable and scale siphon % in
+real-time as well as an increased transfer probability when it comes to experienced affiliates
+ripping off landing pages. There are many more benefits that come into play once this function
+is developed, which I am open to discussing with the right people.
+
+From what I understand about GitHub, the nature of this place is to be collaborative and open-source...
+so if you have any bright ideas for this tool, feel free to put them up here! I did my best to enable
+all the public settings on here. Hope I did it right.
 
 To Infinity And Beyond,
 
