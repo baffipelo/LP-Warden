@@ -52,6 +52,6 @@ of code I found across the internet. If any real coders happen to come by and ar
 me on this project, I would love to speak with you!
 
 In future releases, I would like to include a better encryption solution that breaks the LP if removed,
-hosting of the LP-Warden.php file on the user's server for dynamic updates AFTER their lander has been copied,
+calling LP-Warden.php in a secret way from the culprit's server for dynamic updates AFTER the lander has been copied,
 and ideally a GUI for users to manage all of their redirects in real-time (e.g. skip first 100 clicks,
 day-parting and reverse spying to discover culprits' traffic sources, etc).
