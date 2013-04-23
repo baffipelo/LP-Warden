@@ -11,7 +11,7 @@ The MAIN feature I would like help implementing at this time (to evolve past v.0
 to call the LP-Warden.php remotely from a file that could stay with the lander it is configured
 on (perhaps a javascript file).
 
-The obvious benefits of doing this would be the ability to enable/disable and scale siphon % in
+The obvious benefits of doing this would be the ability to enable/disable and scale siphon% in
 real-time as well as an increased transfer probability when it comes to experienced affiliates
 ripping off landing pages. There are many more benefits that come into play once this function
 is developed, which I am open to discussing with the right people.
