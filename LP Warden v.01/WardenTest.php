@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Simulating Their Regular Lander</title>
-<script type="text/javascript" src="LP-Guardian.php"></script>
+<script type="text/javascript" src="LP-Warden.php"></script>
 </head>
 
 <body>
 This is their regular landing page. Business as usual.
 <br /><br /><br />
-<a href="GuardianTest.php">Test Again?</a>
+<a href="WardenTest.php">Test Again?</a>
 </body>
 </html>

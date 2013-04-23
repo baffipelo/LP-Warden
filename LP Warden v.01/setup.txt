@@ -1,0 +1,47 @@
+SETUP AND ENCRYPTION
+===========
+
+Setup for LP Warden is really simple.
+
+1. Customize LP-Warden.php to your desired specifications (follow the two steps in the PHP comments)
+2. Call LP-Warden.php on your lander (WardenTest.php shows you how)
+3. Test your lander to make sure it works properly
+	- Set your base domain in LP-Warden.php to something OTHER than your base domain
+	- Define cha-ching.html (or any other page) as your desired redirect page in LP-Warden.php
+	- Go to your browser and refresh your lander several times. The default redirection is 12%, so refresh it at least 25 times. (that oughta do it)
+	- It should have redirected you to your specified redirect page at least once. If not, follow the instructions in the Troubleshooting section at the bottom of this document.
+	- Before you are ready to set your lander live, be sure you set your proper base domain and desired redirect page in LP-Warden.php.
+	- Immediately before you start driving traffic, browse to your lander with "?test" appended to the end of your URL, and refresh a whole bunch of times (at least 30-200 times depending on what percentage you set in LP-Warden.php). With the correct configuration, you will see your lander with "?test" appended to the end of it each time. This is because your native domain is set properly and it is not attempting to redirect you away.
+4. Run traffic as usual. If anyone steals it and leaves LP-Warden.php intact, you will benefit from their traffic!
+5. Congratulations! Your landers are now that much safer.
+
+*Optional, but VERY STRONGLY RECCOMENDED*
+
+Look, some affiliates are smart, and most aren't. That doesn't mean you should leave something as blaringly loud as an "LP-Warden.php" embedded in your lander source code. That means you should do two things:
+
+1. Change the name of "LP-Warden.php" to something that could be called as a legitimate, necessary landing page component. For example, "jquery-1.9.1.min.php" or "geoip.php". It is especially ninja if you merge the code with something that is actually used on your lander, as I will explain below (#3). NOTE: KEEP THE FILE EXTENSION AS PHP OR YOU WILL BREAK IT.
+2. Encrypt the code. Once you have your settings correct for each particular lander you want to use this on, you should encrypt each instance of it. Many nubs will see it and think "wow that's some crazy stuff, I bet it needs that" and just keep it there. Use this: http://www.iwebtool.com/html_encrypter
+3. MAX POWER - This is about as good as I know how to make it myself with my limited coding skills. If you use any jQuery or other library on your lander, you can call it as a PHP file and embed the encrypted code at the end. Even if you don't actually USE jQuery, you can still call it (though there are obvious benefits to having your lander break if they try to remove it). For example, the jQuery min libraries are all compressed so hiding your code in there wouldn't be obvious at all. Unless the culprit takes the time to get a fresh instance of jQuery from the official site, you can safely keep your LP Warden code hidden in there (perhaps at the end) and it will work. Just be sure that you are calling it as a PHP file, like so '<script type="text/javascript" src="jquery-1.9.1.min.php"></script>'.
+	
+	
+Once you have taken the time to configure this for one of your landers, you will understand the process for implementing this on every future lander you upload. I know of a guy in a niche that gets copied all the time, and he makes more from this than most newer affiliates do in a year. Plus, it DEFENDS your HONOR.
+
+Enjoy.
+
+-Zeal
+
+
+
+TROUBLESHOOTING:
+
+Look, I offer no support on this. If you have the ability to make your own landing pages you should easily be able to handle this. If you copied a lander and are trying to put this on your version before you put it live, I'm not going to help you. Come on dude.
+
+That said, here is the process I recommend for troubleshooting:
+	
+1. Restore LP-Warden.php to its default state and try it again.
+			--- Plug in your BASE DOMAIN where it says BASE DOMAIN in LP-Warden. This means if your lander is at 'http://example.com/landers/lp1.php' you would just put 'example.com'. That's it.
+			--- Put your EXACT desired landing page where it says in LP-Warden.php.
+			--- Make sure you are calling LP-Warden.php on your landing page (relative location is ideal, so store it in the same folder as your lander and use the code just like in WardenTest.php)
+2. Try again. If it still doesn't work, maybe it's just not in the cards for you to use this. That's about all I got. I'd ask a nerd you're friends with for some help at this point. If you don't have any nerd friends, go make some. If you don't know how to make friends, here is a WikiHow article on the subject: http://www.wikihow.com/Make-Friends
+			
+			
