@@ -33,7 +33,7 @@ work by sending traffic back to your landing pages from those who copy them.
 LP Warden works by embedding a piece of PHP code on your landers BEFORE they get spied on and swooped.
 This PHP code then stays with your lander when another affiliate swipes and deploys it. The code is run
 every time the lander is loaded, whether on your server or on theirs. The code recognizes your lander's
-native domain (as defined by you) and if the domain it is being loaded on is not its native domain, it will
+native domain (as defined by you) and if the domain it is being loaded on is not its native domain, LP Warden will
 redirect the visitor to your desired landing page a certain percentage of the time --you control which
 landing page they are taken to and how often the redirect occurs.
 
