@@ -1,7 +1,7 @@
 LP Warden
 ===========
 
-PHP script to reclaim lost or stolen traffic back to your landing page.
+PHP script to reclaim lost or stolen traffic back to your landing page. 
 
 
 Sick of slaving over campaigns, scheming up angles into the dead of night and creating beautiful
