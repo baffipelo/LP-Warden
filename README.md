@@ -1,4 +1,4 @@
-LP Warden
+LP Warden Readme
 ===========
 
 PHP script to reclaim lost or stolen traffic back to your landing page. 
@@ -49,9 +49,9 @@ Created by: Zeal Caiden
 
 I would not call myself a "proper coder" by any means as this was hacked together from some different pieces
 of code I found across the internet. If any real coders happen to come by and are interested in working with
-me on this project, I would love to work with you!
+me on this project, I would love to speak with you!
 
 In future releases, I would like to include a better encryption solution that breaks the LP if removed,
 hosting of the LP-Warden.php file on the user's server for dynamic updates AFTER their lander has been copied,
-and optimistically a GUI for users to manage all of their redirects in real-time (e.g. skip first 100 clicks,
+and ideally a GUI for users to manage all of their redirects in real-time (e.g. skip first 100 clicks,
 day-parting and reverse spying to discover culprits' traffic sources, etc).
